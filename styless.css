@@ -1,0 +1,72 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Pure white background for the whole page */
+    color: #343a40;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header banner */
+header {
+    background-color: #8fbc8f; /* Light green background for the header */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Container for auction item, timers, and bids */
+#item-container, #timer-container, #highest-bid-container, #bid-container {
+    background-color: #f8f9fa; /* Light grey background for sections */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds depth with shadows */
+    margin-bottom: 20px;
+}
+
+/* Styling for forms and inputs */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Button styling for interactions */
+button {
+    background-color: #007bff; /* Blue background for primary actions */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Displaying current and highest bids with emphasis */
+#highest-bid, #current-bid {
+    font-weight: bold;
+    color: #dc3545; /* Red color to highlight important numbers */
+}
